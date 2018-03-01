@@ -13,6 +13,7 @@ android:orientation="vertical"
 tools:context="com.example.arrieta.texttospeech.MainActivity">
 
     <EditText
+        android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -22,6 +23,7 @@ tools:context="com.example.arrieta.texttospeech.MainActivity">
         android:inputType="textMultiLine" />
 
     <Button
+        android:id="@+id/buttonSpeech"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
